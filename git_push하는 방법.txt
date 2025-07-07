@@ -1,0 +1,13 @@
+git push하는 방법
+
+1. git init(.git 폴더가 있으면 생략)
+2. git add . (모든 파일을 올리겠다)
+3. git config user.name 'jihoon kim'
+   git config user.email 'ghkdtkd0001@gmail.com'
+   git config --list -> 위의 이름과 이메일이 나와야 제대로 된것임
+4. git commit -m '메세지'
+5. git remote add origin [git 래퍼지토리 주소]
+ 5-1. error: remote origin already exists. 에러가 발생할 경우
+ 5-2. git remote set-url origin https://github.com/내아이디/새저장소.git  새 주소로 덮어쓰기
+6. git push -u origin main
+7. git에 올려있는지 확인하고 마무리. readme 작성
