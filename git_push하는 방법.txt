@@ -8,6 +8,7 @@ git push하는 방법
 4. git commit -m '메세지'
 5. git remote add origin [git 래퍼지토리 주소]
  5-1. error: remote origin already exists. 에러가 발생할 경우
- 5-2. git remote set-url origin https://github.com/내아이디/새저장소.git  새 주소로 덮어쓰기
+ 5-2  git remote -v 로 주소 확인
+ 5-3. git remote set-url origin https://github.com/내아이디/새저장소.git  새 주소로 덮어쓰기
 6. git push -u origin main
 7. git에 올려있는지 확인하고 마무리. readme 작성
